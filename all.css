@@ -1,0 +1,106 @@
+*,*::before,*:after{
+    box-sizing: border-box;       
+}
+
+a{
+    text-decoration:none;
+}
+body{
+	font-family: 'Castoro', serif;
+	line-height:1.5;
+}
+
+
+.container{
+	margin: 0 auto;
+	max-width: 1296px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.flex{
+	display: flex;
+}
+/**/
+
+.intro-bg {
+    background: #EFEFEF;
+    display: flex;
+    justify-content: flex-start; 
+    
+}
+
+
+.intro-content {
+    max-width: 100%; /* Adjust the width of the content */
+    margin-left: 4rem;
+
+}
+
+
+.content{
+	max-width: 100%;
+    overflow: auto;
+}
+.cv h3{
+	color: #AE0000;
+	font-size: 36px;
+	border-bottom: #AE0000 solid 3px;
+}
+.item-years{
+	font-size: 20px;
+	color: #949494;
+}
+
+
+/**/
+.fs-24{
+	font-size: 24px;
+}
+
+.fs-20 {
+    font-size: 20px;
+  
+}
+
+.pt-8{
+	padding-top: 8px;
+}
+.pt-12{
+    padding-top: 12px;
+}
+.pt-16{
+	padding-top: 16px;
+}
+.pt-12{
+	padding-top: 12px;
+}
+.pt-40{
+	padding-top: 40px;
+}
+.pt-80{
+	padding-top: 80px;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+
+    /* 在小螢幕上的文字大小調整 */
+    .fs-24 {
+        font-size: 20px;
+    }
+
+    .fs-20 {
+        font-size: 16px;
+    }
+
+    .cv h3 {
+        font-size: 28px;
+    }
+
+    .item-years {
+        font-size: 16px;
+    }
+}
